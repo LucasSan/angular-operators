@@ -7,6 +7,7 @@ import { AsyncComponent } from './components/async/async.component';
 import { TakeUntilComponent } from './components/take-until/take-until.component';
 import { TakeComponent } from './components/take/take.component';
 import { NoneComponent } from './components/none/none.component';
+import { FirstComponent } from './components/first/first.component';
 import { BaseComponent } from './base/base.component';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { BaseComponent } from './base/base.component';
     TakeUntilComponent,
     TakeComponent,
     NoneComponent,
+    FirstComponent,
     BaseComponent
   ]
 })
